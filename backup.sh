@@ -3,8 +3,8 @@ SRC_DIR="/etc"
 BACKUP_DIR="/home/ec2-user/task2/etc-backup"
 DATE=$(date '+%y-%m-%d_%H:%M:%S')
 TARFILE="/home/ec2-user/task2/etc-backup_$DATE.tar.gz"
-BUCKET="demo-basics"
-EMAIL="healthylivingfriday@gmail.com"
+BUCKET="your_s3_bucket"
+EMAIL="your_email.com"
 
 # Create the backup directroy
 mkdir -p $BACKUP_DIR
